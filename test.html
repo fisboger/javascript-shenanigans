@@ -9,7 +9,13 @@
   </head>
   <body>
 	<script>
-    alert(document.location.hash)
+	// self executing function here
+(function() {
+   // your page initialization code here
+   // the DOM will be available here
+alert(document.location.hash)
+})();
+    
   </script>
   </body>
 </html>
